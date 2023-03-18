@@ -15,7 +15,7 @@ def convert_weight_on_planet(weight, planet):
     weight_on_planet = weight * gravity[planet]
     return weight_on_planet
 
-# Example usage
+#Input and Output
 weight = float(input("Enter your weight on Earth in kg: "))
 planet = input("Enter the planet you want to convert your weight to: ")
 weight_on_planet = convert_weight_on_planet(weight, planet)
